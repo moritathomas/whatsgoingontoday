@@ -1,11 +1,5 @@
 import requests
-import logging 
 
-# Set up basic logging configuration
-logging.basicConfig(level=logging.INFO)
-
-# Create a logger
-logger = logging.getLogger(__name__)
 
 
 def get_news():
