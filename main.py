@@ -1,18 +1,7 @@
 # main.py
 from fastapi import FastAPI
-import logging
 from services.news import get_news
 from fastapi.middleware.cors import CORSMiddleware
-
-
-
-
-
-# Set up basic logging configuration
-logging.basicConfig(level=logging.INFO)
-
-# Create a logger
-logger = logging.getLogger(__name__)
 
 
 
